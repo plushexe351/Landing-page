@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border:2px solid red; */
+  }
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .navbar {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px 10vw;
+    gap: 30px;
+  }
+  .navlinks {
+    display: flex;
+    gap: 30px;
+  }
+  .navlinks a {
+    text-decoration: none;
+    color: #e5e7ebc4;
+    font-size: 18px;
+    font-weight: 200;
+    transition:0.2s ease;
+    padding:10px;
+  }
+  .navlinks a:hover{
+      color:#ffffff;
+  }
+  .navbar h1 {
+    color: #f9faf8;
+    font-size: 24px;
+  }
+  .main {
+    background-color: #1f2937;
+    min-height: 70vh;
+    padding: 10vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  .hero-left {
+    width: 500px;
+  }
+  .hero-right {
+    border-radius: 10px;
+    padding: 110px 10vw;
+    color: #f9faf8;
+    background-color: rgba(255, 255, 255, 0.357);
+    transition:0.2s ease;
+  }
+  .hero-right:hover{
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+  }
+  .title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+  }
+  .subtitle {
+    font-size: 18px;
+    color: #d2d4d8;
+    font-weight: 200;
+  }
+  .signup {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+  .signup:hover{
+      background-color: #f9faf8;
+      color:#3882f6;
+  }
+  .somerandominfo h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin: 50px;
+  }
+  .hovercards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  
+  }
+  .card div {
+    border: 4px solid #3882f6;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    transition: 0.2s ease;
+    cursor: pointer;
+  }
+  .hovercards p {
+    width: 200px;
+    color: #63636300;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+    transition: 0.2s ease;
+  }
+  .card div:hover{
+      transform:translate(0,-30px);
+  }
+  .card div:hover ~p{
+      color: #636363;
+      margin-top: 10px;
+  }
+  .quote {
+    display: flex;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 10vw;
+    gap:20px;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .quote .text {
+    width: 1000px;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+  }
+  .quote .author {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
+    justify-self: flex-end;
+  }
+  .calltoaction {
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 70vw;
+    color: white;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3vw 5vw;
+    margin: 100px auto;
+  }
+  .calltoaction .signup {
+    border: 2px solid white;
+  }
+  .copyright {
+    padding: 30px;
+    background-color: #1f2937;
+    text-align: center;
+    color: #e5e7eb;
+  }
+  @media only screen and (max-width:500px){
+      .main,.navbar,.calltoaction{
+          flex-wrap: wrap;
+      }
+  }
+  
