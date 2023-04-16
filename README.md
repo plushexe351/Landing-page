@@ -14,3 +14,6 @@ Here are five ideas you can implement using this layout:
 4. Service-based website
 5. Restaurant website
 
+## Live Preview
+
+https://plushexe351.github.io/Landing-page/
