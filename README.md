@@ -1,7 +1,7 @@
 # Landing-page
   
-The Odin Project - Landing page
-made using pure html and css for now.  
+The Odin Project - Landing page,
+made using html and css. 
 
 ## Potentials
 
