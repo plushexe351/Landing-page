@@ -5,7 +5,7 @@ made using html and css.
 
 ## Potentials
 
-This is a really good layout for a professional looking website with great potential.  
+This is a really good layout for a professional looking website.
 Here are five ideas you can implement using this layout:
 
 1. Personal portfolio website
