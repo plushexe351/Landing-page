@@ -3,7 +3,7 @@
 The Odin Project - Landing page,
 made using html and css. 
 
-## Potentials
+## Description
 
 This is a really good layout for a professional looking website.
 Here are five ideas you can implement using this layout:
