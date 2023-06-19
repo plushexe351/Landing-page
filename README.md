@@ -8,9 +8,9 @@ https://plushexe351.github.io/Landing-page/
 
 ## Image Sources
 
-NOTE : I own none of the images used in this website and they are for personal use only. 
+I own none of the images used in this website and they are for personal use only. 
 
-image URLs :
+### Image URLs :
 
 https://images.hdqwalls.com/wallpapers/cat-glasses-neon-purple-nights-4k-ob.jpg
 
