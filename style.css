@@ -85,7 +85,6 @@ body {
   font-weight: bold;
   cursor: pointer;
   transition: 0.2s ease;
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.332);
 }
 .signup:hover {
   color: #e8d5f9;
@@ -139,13 +138,8 @@ body {
 .card div:hover {
   transform: translate(0, -30px);
 }
-/* .card div:hover ~p{
-      color: #636363;
-      margin-top: 10px;
-  } */
 .quote {
   display: flex;
-
   background-color: #e5e7eb;
   align-items: center;
   justify-content: center;
